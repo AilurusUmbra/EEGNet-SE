@@ -15,3 +15,7 @@
     * container_memory_rss
     * container_memory_swap
     
+* `./raw/` include the segmented data from Prometheus server.
+
+* `./aug/` only include the augmented data from `./raw/`
+    * Data augmentation methods: DGW-sD from "Time Series Data Augmentation for Neu-ral Networks by Time Warping with a Discriminative Teacher". (ICPR 2021)
